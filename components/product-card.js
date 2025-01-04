@@ -28,9 +28,7 @@ class productCard extends HTMLElement {
         template.innerHTML = `
         <main class="container">
             <section class="imgBox">
-                <img src="${
-                    this.img
-                }" alt="Zapatos deportivos para correr color azul"/>
+                <img src="${this.img}" alt="Zapatos deportivos para correr color azul"/>
             </section>
             <section class="details">
                 <div class="content">
